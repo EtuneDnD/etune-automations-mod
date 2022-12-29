@@ -15,8 +15,8 @@
     "verified": 10,
     "maximum": 10
   },
-  "scripts": [
-    "scripts/lib/lib.js"
+  "esmodules": [
+    "scripts/lib/init.mjs"
   ],
   "languages": [
     {
