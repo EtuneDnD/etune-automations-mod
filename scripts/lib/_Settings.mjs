@@ -7,8 +7,8 @@ export class Settings {
   static initialize() {
     game.settings.register(EtuneAutomations.ID, Settings.SETTINGS.SERVER_URL, {
       name: "Rest Server Url",
-      // default: "http://etune-bot.duckdns.org:8000",
-      default: "http://localhost:8000",
+      default: "http://etune-bot.duckdns.org:8000",
+      // default: "http://localhost:8000",
       type: String,
       scope: "world",
       config: true,
